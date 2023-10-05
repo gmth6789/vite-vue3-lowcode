@@ -10,8 +10,8 @@ import { useGlobalProperties } from '@/hooks/useGlobalProperties';
 export default {
   key: 'button',
   moduleName: 'baseWidgets',
-  label: '按钮',
-  preview: () => <Button type={'primary'}>按钮</Button>,
+  label: 'ปุ่ม',
+  preview: () => <Button type={'primary'}>ปุ่ม</Button>,
   render: ({ props, block, styles }) => {
     const { registerRef } = useGlobalProperties();
 
@@ -26,32 +26,32 @@ export default {
     width: true,
   },
   events: [
-    { label: '点击按钮，且按钮状态不为加载或禁用时触发', value: 'click' },
-    { label: '开始触摸按钮时触发', value: 'touchstart' },
+    { label: 'คลิกปุ่ม，ทริกเกอร์เมื่อสถานะของปุ่มไม่ได้โหลดหรือปิดใช้งาน', value: 'click' },
+    { label: 'ยิงเมื่อคุณเริ่มสัมผัสปุ่ม', value: 'touchstart' },
   ],
   props: {
-    text: createEditorInputProp({ label: '按钮文字', defaultValue: '按钮' }),
+    text: createEditorInputProp({ label: 'ข้อความปุ่ม', defaultValue: 'ปุ่ม' }),
     type: createEditorSelectProp({
-      label: '按钮类型',
+      label: 'ประเภทปุ่ม',
       options: [
         {
-          label: '主要按钮',
+          label: 'ปุ่มหลัก',
           value: 'primary',
         },
         {
-          label: '成功按钮',
+          label: 'ปุ่มสำเร็จ',
           value: 'success',
         },
         {
-          label: '默认按钮',
+          label: 'ปุ่มเริ่มต้น',
           value: 'default',
         },
         {
-          label: '警告按钮',
+          label: 'ปุ่มเตือน',
           value: 'warning',
         },
         {
-          label: '危险按钮',
+          label: 'ปุ่มอันตราย',
           value: 'danger',
         },
       ],
