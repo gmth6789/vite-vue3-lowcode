@@ -23,7 +23,7 @@ import { BASE_URL } from '@/visual-editor/utils';
 const defaultTabbarItems = [
   {
     icon: 'home-o',
-    title: '首页',
+    title: 'หน้าหลัก',
   },
   {
     icon: 'apps-o',
@@ -38,7 +38,7 @@ const defaultTabbarItems = [
 export default {
   key: 'tabbar',
   moduleName: 'baseWidgets',
-  label: '底部标签栏',
+  label: 'แถบด้านล่าง',
   preview: () => (
     <Tabbar>
       {defaultTabbarItems.map((item) => (
