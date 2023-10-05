@@ -3,7 +3,7 @@
     <!--    左侧logo start-->
     <el-col :span="6" class="flex items-center">
       <div class="logo"></div>
-      <h3 class="font-semibold">H5低代码</h3>
+      <h3 class="font-semibold">H5</h3>
     </el-col>
     <!--    左侧logo end-->
     <!--    中间操作页面部分 start-->
@@ -25,7 +25,7 @@
     <!--    中间操作页面部分 end-->
     <!--    右侧工具栏 start-->
     <el-col :span="6" class="right-tools flex flex-row-reverse items-center">
-      <el-tooltip class="item" effect="dark" content="运行" placement="bottom">
+      <el-tooltip class="item" effect="dark" content="วิ่ง" placement="bottom">
         <el-button
           type="primary"
           :icon="VideoPlay"

@@ -51,7 +51,7 @@ export const useAnimate = async (
         animateEl?.addEventListener('animationend', handleAnimationEnd, { once: true });
         // animateEl?.addEventListener('animationcancel', handleAnimationEnd, { once: true })
       } else {
-        resolve('动画执行失败！执行动画元素不存在！');
+        resolve('ล้มเหลว! ไม่มีองค์ประกอบ！');
       }
     });
 

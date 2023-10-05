@@ -57,7 +57,7 @@ export const FormatInputNumber = defineComponent({
       <div class={styles.formatInputNumber}>
         <ElInput
           model-value={modelValue.value}
-          placeholder={'请输入内容'}
+          placeholder={'กรุณากรอกเนื้อหา'}
           {...attrs}
           onInput={onInput}
         >
