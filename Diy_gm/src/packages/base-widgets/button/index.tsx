@@ -105,18 +105,18 @@ export default {
       label: 'สีของปุ่ม',
       tips: 'สีของปุ่ม，ไล่ระดับสี',
     }),
-    disabled: createEditorSwitchProp({ label: '是否禁用按钮' }),
-    hairline: createEditorSwitchProp({ label: '是否使用 0.5px 边框' }),
-    icon: createEditorInputProp({ label: '左侧图标名称或图片链接' }),
+    disabled: createEditorSwitchProp({ label: 'ไม่ว่าจะปิดการใช้งานปุ่ม' }),
+    hairline: createEditorSwitchProp({ label: 'ใช้หรือไม่ 0.5px กรอบ' }),
+    icon: createEditorInputProp({ label: 'ชื่อไอคอนหรือลิงค์รูปภาพทางด้านซ้าย' }),
     'icon-position': createEditorSelectProp({
-      label: '图标展示位置',
+      label: 'ตำแหน่งไอคอน',
       options: [
         {
-          label: '左侧',
+          label: 'ด้านซ้าย',
           value: 'left',
         },
         {
-          label: '右侧',
+          label: 'ขวา',
           value: 'right',
         },
       ],
