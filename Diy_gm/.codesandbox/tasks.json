@@ -1,0 +1,141 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "pnpm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "bootstrap": {
+      "name": "bootstrap",
+      "command": "pnpm bootstrap",
+      "runAtStart": false
+    },
+    "serve": {
+      "name": "serve",
+      "command": "pnpm serve",
+      "runAtStart": false
+    },
+    "dev": {
+      "name": "dev",
+      "command": "pnpm dev",
+      "runAtStart": true,
+      "preview": {
+        "port": 10086
+      }
+    },
+    "build": {
+      "name": "build",
+      "command": "pnpm build",
+      "runAtStart": false
+    },
+    "build:no-cache": {
+      "name": "build:no-cache",
+      "command": "pnpm build:no-cache",
+      "runAtStart": false
+    },
+    "build-tsc": {
+      "name": "build-tsc",
+      "command": "pnpm build-tsc",
+      "runAtStart": false
+    },
+    "preview": {
+      "name": "preview",
+      "command": "pnpm preview",
+      "runAtStart": false
+    },
+    "preview:dist": {
+      "name": "preview:dist",
+      "command": "pnpm preview:dist",
+      "runAtStart": false
+    },
+    "log": {
+      "name": "log",
+      "command": "pnpm log",
+      "runAtStart": false
+    },
+    "clean:cache": {
+      "name": "clean:cache",
+      "command": "pnpm clean:cache",
+      "runAtStart": false
+    },
+    "clean:lib": {
+      "name": "clean:lib",
+      "command": "pnpm clean:lib",
+      "runAtStart": false
+    },
+    "format": {
+      "name": "format",
+      "command": "pnpm format",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "pnpm lint",
+      "runAtStart": false
+    },
+    "lint:fix": {
+      "name": "lint:fix",
+      "command": "pnpm lint:fix",
+      "runAtStart": false
+    },
+    "lint:eslint": {
+      "name": "lint:eslint",
+      "command": "pnpm lint:eslint",
+      "runAtStart": false
+    },
+    "lint:prettier": {
+      "name": "lint:prettier",
+      "command": "pnpm lint:prettier",
+      "runAtStart": false
+    },
+    "lint:stylelint": {
+      "name": "lint:stylelint",
+      "command": "pnpm lint:stylelint",
+      "runAtStart": false
+    },
+    "lint:lint-staged": {
+      "name": "lint:lint-staged",
+      "command": "pnpm lint:lint-staged",
+      "runAtStart": false
+    },
+    "deploy": {
+      "name": "deploy",
+      "command": "pnpm deploy",
+      "runAtStart": false
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "pnpm prepare",
+      "runAtStart": false
+    },
+    "postversion": {
+      "name": "postversion",
+      "command": "pnpm postversion",
+      "runAtStart": false
+    },
+    "reinstall": {
+      "name": "reinstall",
+      "command": "pnpm reinstall",
+      "runAtStart": false
+    },
+    "version": {
+      "name": "version",
+      "command": "pnpm version",
+      "runAtStart": false
+    },
+    "test:gzip": {
+      "name": "test:gzip",
+      "command": "pnpm test:gzip",
+      "runAtStart": false
+    },
+    "test:br": {
+      "name": "test:br",
+      "command": "pnpm test:br",
+      "runAtStart": false
+    }
+  }
+}
