@@ -58,33 +58,33 @@ export default {
       defaultValue: 'default',
     }),
     size: createEditorSelectProp({
-      label: '按钮尺寸',
+      label: 'ขนาดปุ่ม',
       options: [
         {
-          label: '大型',
+          label: 'ใหญ่',
           value: 'large',
         },
         {
-          label: '普通',
+          label: 'กลาง',
           value: 'normal',
         },
         {
-          label: '小型',
+          label: 'เล็ก',
           value: 'small',
         },
         {
-          label: '迷你',
+          label: 'เล็กมาก',
           value: 'mini',
         },
       ],
       defaultValue: 'normal',
     }),
     'native-type': createEditorSelectProp({
-      label: '原生button的type属性',
+      label: 'พิมพ์แอตทริบิวต์ของปุ่มเนทิฟ',
       options: [
-        { label: '普通button', value: 'button' },
+        { label: 'ปุ่มธรรมดา', value: 'button' },
         {
-          label: '表单提交按钮',
+          label: 'ปุ่มส่งแบบฟอร์ม',
           value: 'submit',
         },
         {
