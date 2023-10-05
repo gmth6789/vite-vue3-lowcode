@@ -10,8 +10,8 @@ import { useGlobalProperties } from '@/hooks/useGlobalProperties';
 export default {
   key: 'button',
   moduleName: 'baseWidgets',
-  label: 'ปุ่ม',
-  preview: () => <Button type={'primary'}>ปุ่ม</Button>,
+  label: '按钮',
+  preview: () => <Button type={'primary'}>按钮</Button>,
   render: ({ props, block, styles }) => {
     const { registerRef } = useGlobalProperties();
 
@@ -26,86 +26,86 @@ export default {
     width: true,
   },
   events: [
-    { label: 'คลิกปุ่ม，ทริกเกอร์เมื่อสถานะของปุ่มไม่ได้โหลดหรือปิดใช้งาน', value: 'click' },
-    { label: 'ยิงเมื่อคุณเริ่มสัมผัสปุ่ม', value: 'touchstart' },
+    { label: '点击按钮，且按钮状态不为加载或禁用时触发', value: 'click' },
+    { label: '开始触摸按钮时触发', value: 'touchstart' },
   ],
   props: {
-    text: createEditorInputProp({ label: 'ข้อความปุ่ม', defaultValue: 'ปุ่ม' }),
+    text: createEditorInputProp({ label: '按钮文字', defaultValue: '按钮' }),
     type: createEditorSelectProp({
-      label: 'ประเภทปุ่ม',
+      label: '按钮类型',
       options: [
         {
-          label: 'ปุ่มหลัก',
+          label: '主要按钮',
           value: 'primary',
         },
         {
-          label: 'ปุ่มสำเร็จ',
+          label: '成功按钮',
           value: 'success',
         },
         {
-          label: 'ปุ่มเริ่มต้น',
+          label: '默认按钮',
           value: 'default',
         },
         {
-          label: 'ปุ่มเตือน',
+          label: '警告按钮',
           value: 'warning',
         },
         {
-          label: 'ปุ่มอันตราย',
+          label: '危险按钮',
           value: 'danger',
         },
       ],
       defaultValue: 'default',
     }),
     size: createEditorSelectProp({
-      label: 'ขนาดปุ่ม',
+      label: '按钮尺寸',
       options: [
         {
-          label: 'ใหญ่',
+          label: '大型',
           value: 'large',
         },
         {
-          label: 'กลาง',
+          label: '普通',
           value: 'normal',
         },
         {
-          label: 'เล็ก',
+          label: '小型',
           value: 'small',
         },
         {
-          label: 'เล็กมาก',
+          label: '迷你',
           value: 'mini',
         },
       ],
       defaultValue: 'normal',
     }),
     'native-type': createEditorSelectProp({
-      label: 'พิมพ์แอตทริบิวต์ของปุ่มเนทิฟ',
+      label: '原生button的type属性',
       options: [
-        { label: 'ปุ่มธรรมดา', value: 'button' },
+        { label: '普通button', value: 'button' },
         {
-          label: 'ปุ่มส่งแบบฟอร์ม',
+          label: '表单提交按钮',
           value: 'submit',
         },
         {
-          label: 'ปุ่มรีเซ็ตแบบฟอร์ม',
+          label: '表单重置按钮',
           value: 'reset',
         },
       ],
       defaultValue: 'button',
     }),
-    to: createEditorInputProp({ label: 'เส้นทางกระโดด' }),
-    url: createEditorInputProp({ label: 'ลิงค์กระโดด' }),
-    plain: createEditorSwitchProp({ label: 'ไม่ว่าจะเป็นปุ่มธรรมดา' }),
-    replace: createEditorSwitchProp({ label: 'ไม่ว่าจะแทนที่ประวัติหน้าปัจจุบันเมื่อกระโดด' }),
-    round: createEditorSwitchProp({ label: 'ไม่ว่าจะเป็นปุ่มกลมๆ' }),
-    square: createEditorSwitchProp({ label: 'ไม่ว่าจะเป็นปุ่มสี่เหลี่ยม' }),
-    block: createEditorSwitchProp({ label: 'ไม่ว่าจะเป็นองค์ประกอบระดับบล็อก', defaultValue: false }),
+    to: createEditorInputProp({ label: '路由跳转' }),
+    url: createEditorInputProp({ label: '跳转链接' }),
+    plain: createEditorSwitchProp({ label: '是否为朴素按钮' }),
+    replace: createEditorSwitchProp({ label: '是否在跳转时替换当前页面历史' }),
+    round: createEditorSwitchProp({ label: '是否为圆形按钮' }),
+    square: createEditorSwitchProp({ label: '是否为方形按钮' }),
+    block: createEditorSwitchProp({ label: '是否为块级元素', defaultValue: false }),
     color: createEditorInputProp({
-      label: 'สีของปุ่ม',
-      tips: 'สีของปุ่ม，ไล่ระดับสี',
+      label: '按钮颜色',
+      tips: '按钮颜色，支持传入 linear-gradient 渐变色',
     }),
-    disabled: createEditorSwitchProp({ label: 'ไม่ว่าจะปิดการใช้งานปุ่ม' }),
+    disabled: createEditorSwitchProp({ label: '是否禁用按钮' }),
     hairline: createEditorSwitchProp({ label: '是否使用 0.5px 边框' }),
     icon: createEditorInputProp({ label: '左侧图标名称或图片链接' }),
     'icon-position': createEditorSelectProp({
