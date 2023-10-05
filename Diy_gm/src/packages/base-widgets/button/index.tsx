@@ -122,7 +122,7 @@ export default {
       ],
     }),
     'icon-prefix': createEditorInputProp({
-      label: '图标类名前缀',
+      label: 'คำนำหน้าชื่อคลาสไอคอน',
       tips: '图标类名前缀，同 Icon 组件的 class-prefix 属性',
     }),
     loading: createEditorSwitchProp({ label: '是否显示为加载状态' }),
