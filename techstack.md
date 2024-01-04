@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 gmth6789/vite-vue3-lowcode is built on the following main stack:
+
 - [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - [TypeScript](http://www.typescriptlang.org) – Languages
@@ -15,11 +16,13 @@ gmth6789/vite-vue3-lowcode is built on the following main stack:
 - [Animate.css ](https://animate.style/) – Front-End Frameworks
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 gmth6789/vite-vue3-lowcode is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1612/bynNY5dJ.jpg' alt='TypeScript'/> [TypeScript](http://www.typescriptlang.org) – Languages
@@ -33,14 +36,15 @@ gmth6789/vite-vue3-lowcode is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/9195/default_5aa00f79c6648507ba5f6c66c130a832332e5adc.png' alt='Animate.css '/> [Animate.css ](https://animate.style/) – Front-End Frameworks
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [gmth6789/vite-vue3-lowcode](https://github.com/gmth6789/vite-vue3-lowcode)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|49<br/>Tools used|11/09/23 <br/>Report generated|
+|51<br/>Tools used|01/04/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -185,9 +189,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (34)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (36)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (34)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (36)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -205,6 +209,8 @@ Full tech stack [here](/techstack.md)
 |[eslint-plugin-import](https://www.npmjs.com/eslint-plugin-import)|v2.28.1|07/10/22|renqian805 |MIT|N/A|
 |[eslint-plugin-prettier](https://www.npmjs.com/eslint-plugin-prettier)|v4.2.1|07/10/22|renqian805 |MIT|N/A|
 |[eslint-plugin-vue](https://www.npmjs.com/eslint-plugin-vue)|v9.17.0|07/10/22|renqian805 |MIT|N/A|
+|[husky](https://www.npmjs.com/husky)|v8.0.3|07/02/22|buqiyuan |MIT|N/A|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v12.5.0|07/10/22|renqian805 |MIT|N/A|
 |[lodash-es](https://www.npmjs.com/lodash-es)|v4.17.21|07/02/22|buqiyuan |MIT|N/A|
 |[monaco-editor](https://www.npmjs.com/monaco-editor)|v0.33.0|07/02/22|buqiyuan |MIT|N/A|
 |[nanoid](https://www.npmjs.com/nanoid)|v3.3.6|07/02/22|buqiyuan |MIT|N/A|
@@ -229,4 +235,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
